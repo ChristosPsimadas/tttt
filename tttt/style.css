@@ -1,0 +1,15 @@
+.box{
+    background-color: yellow;
+}
+
+@media screen and (max-width: 600px) {
+    .box{
+        margin: auto;
+        width: auto;
+        background-color: lightblue;
+    }
+    .paragraph{
+        margin: auto;
+        width: 50%;
+    }
+}
